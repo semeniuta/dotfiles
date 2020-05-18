@@ -21,6 +21,8 @@ export PATH=$PATH:/Applications/Arduino.app/Contents/MacOS
 # Brew stuff
 export PATH=/usr/local/bin:$PATH # this is normally already in PATH
 export PATH=/usr/local/sbin:$PATH # to use rabbitmq etc
+
+export WORKON_HOME=$HOME/envs
 export VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
 source /usr/local/bin/virtualenvwrapper.sh # to use virtualenv with python installed by brew
 
