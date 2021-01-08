@@ -10,3 +10,9 @@ source $THIS_DIR/bashrc_ubuntu.sh
 
 # Initilize ROS
 source /opt/ros/noetic/setup.bash
+
+# Vimba
+export VIMBA_DIR=/opt/Vimba_4_2
+
+# CODEROOT
+export CODEROOT=$HOME/code
