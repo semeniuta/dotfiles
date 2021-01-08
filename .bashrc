@@ -3,7 +3,7 @@
 # for examples
 
 # Directory of this script
-THIS_DIR=$(dirname $(realpath $(pwd)/.bashrc))
+THIS_DIR=$(dirname $(realpath $HOME/.bashrc))
 
 # Default .bashrc on a clean Ubuntu install
 source $THIS_DIR/bashrc_ubuntu.sh
