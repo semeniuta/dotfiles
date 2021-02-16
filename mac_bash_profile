@@ -1,0 +1,26 @@
+# Encodings
+export LC_ALL=en_US.UTF-8
+export LANG=en_US.UTF-8
+
+# My scripts
+export CODEROOT=$HOME/Dropbox/Work/CODE
+
+# Golang
+export GOROOT=/usr/local/go
+export GOPATH=$HOME/Dropbox/GoWorkspace
+# PATH is already exported in /etc/paths.d/go
+
+# To make Jupyter automatically open the browser
+export BROWSER=open
+
+# Vimba (for my CMake files)
+export VIMBA_DIR=$HOME/Vimba_2_1_Linux
+
+# Java CLASSPATH
+export CLASSPATH=$CLASSPATH:$HOME/algs4/algs4.jar
+
+# virtualenvwraper
+VIRTUALENVWRAPPER_PYTHON=/usr/local/bin/python3
+export WORKON_HOME=$HOME/.virtualenvs
+source /usr/local/bin/virtualenvwrapper.sh
+
