@@ -16,3 +16,6 @@ export VIMBA_DIR=/opt/Vimba_4_2
 
 # CODEROOT
 export CODEROOT=$HOME/code
+
+# Default editor
+export EDITOR=vim
