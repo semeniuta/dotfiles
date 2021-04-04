@@ -19,3 +19,8 @@ export CODEROOT=$HOME/code
 
 # Default editor
 export EDITOR=vim
+
+# virtualenvwrapper
+export WORKON_HOME=$HOME/envs
+source /usr/share/virtualenvwrapper/virtualenvwrapper.sh
+
